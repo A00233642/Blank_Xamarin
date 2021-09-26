@@ -12,7 +12,7 @@ namespace Assignment.ViewModels
 
 
 
-
+            //Intial Peoject
             Title = "Welcome to the application";
             OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://www.google.com"));
         }
